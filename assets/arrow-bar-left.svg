@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="triangle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.75;fill-rule:evenodd;clip-rule:evenodd;fill:#007F7F;}
+	.st1{opacity:0.75;fill-rule:evenodd;clip-rule:evenodd;fill:#A800B5;}
+</style>
+<g id="cyanGroup">
+	<path id="cyan_2" class="st0" d="M4.9,7.7l6.2,3.6c0.2,0.1,0.3,0,0.3-0.2V4c0-0.2-0.2-0.3-0.3-0.2L4.9,7.4C4.8,7.4,4.8,7.7,4.9,7.7
+		z"/>
+	<path id="cyan_1" class="st0" d="M9.1,7.9l6.2,3.6c0.2,0.1,0.3,0,0.3-0.2V4.1c0-0.2-0.2-0.3-0.3-0.2L9.1,7.5
+		C8.9,7.6,8.9,7.8,9.1,7.9z"/>
+</g>
+<g id="magentaGroup">
+	<path id="magenta" class="st1" d="M9.1,7.9l6.2,3.6c0.2,0.1,0.3,0,0.3-0.2V4.1c0-0.2-0.2-0.3-0.3-0.2L9.1,7.5
+		C8.9,7.6,8.9,7.8,9.1,7.9z"/>
+</g>
+</svg>
