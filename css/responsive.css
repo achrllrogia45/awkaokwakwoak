@@ -85,6 +85,9 @@
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    .layout_footer div p {
+    scale: 2.4;
+    }
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -197,6 +200,10 @@
     .input_btn_main {
         width: 60%;
     }
+    .layout_footer {
+        position: relative;
+        transform: translateY(-45%);
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -274,6 +281,10 @@
     .input_btn_main {
         width: 90%;
     }
+    .layout_footer {
+        position: relative;
+        transform: translateY(-50%);
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -308,7 +319,7 @@
   background-color: #ffffff;
 }
     .header_section {
-        background-image: url(../assets/bali.png);
+        background-image: url(../assets/bali2.jpg);
         background-size: cover;
         padding: 0px;
     }
@@ -327,7 +338,7 @@
         display: initial;
     }
     .banner_taital {
-        font-size: 30px;
+        font-size: 20px;
     }
     .bg-light {
         background-color: transparent !important;
@@ -336,6 +347,7 @@
         padding: 0px;
     }
     .navbar {
+        height: 30px;
         position: fixed;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -490,12 +502,16 @@
         width: 100%;
         padding-top: 90px;
     }
+    
 }
 
 @media (max-width: 575px) {
 .navbar {
     height: 30px;
     position: fixed;
+}
+body {
+    overflow-x: hidden;
 }
 .read_bt a {
   width: 100%;
@@ -547,7 +563,7 @@
     .header_section {
         aspect-ratio: 960/450;
         float: left;
-        background-image: url(../assets/bali.png);
+        background-image: url(../assets/bali2.jpg);
         background-size: cover;
         padding: 0px; 
     }
@@ -565,7 +581,7 @@
         display: initial;
     }
     .banner_taital {
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 0;
     } 
     .bg-light {
@@ -693,7 +709,16 @@
         float: left;
         background-image: url(../assets/waves.svg);
         background-size: cover;
-        padding: 50px 0px;
+        height: 300px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .layout_footer div p{
+        font-size: 15px;
+    }
+    .layout_footer {
+        position: relative;
+        transform: translateY(43%);
     }
     .input_btn_main {
         width: 100%;
@@ -727,5 +752,10 @@
         width: 100%;
         padding-top: 90px;
     }
-
+    .layout_footer div p {
+    scale: 0.8;
+    }
+    .icon a i {
+        font-size: 20px;
+    }
 }

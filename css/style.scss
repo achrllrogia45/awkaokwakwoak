@@ -44,19 +44,33 @@
 .ani1 svg:hover #magenta{transform:translateX(-30%)}.ani1 svg:hover #cyan_2{transform:translateX(-90%);opacity:0}.ani1 svg:hover #cyan_1{transform:translateX(-10%)}
 
 .rotate-diagonal-1:hover{-webkit-animation:rotate-diagonal-1 .9s linear both;animation:rotate-diagonal-1 .9s linear both}@-webkit-keyframes rotate-diagonal-1{0%{-webkit-transform:rotate3d(1,1,0,0deg);transform:rotate3d(1,1,0,0deg)}50%{-webkit-transform:rotate3d(1,1,0,-180deg);transform:rotate3d(1,1,0,-180deg)}100%{-webkit-transform:rotate3d(1,1,0,-360deg);transform:rotate3d(1,1,0,-360deg)}}@keyframes rotate-diagonal-1{0%{-webkit-transform:rotate3d(1,1,0,0deg);transform:rotate3d(1,1,0,0deg)}50%{-webkit-transform:rotate3d(1,1,0,-180deg);transform:rotate3d(1,1,0,-180deg)}100%{-webkit-transform:rotate3d(1,1,0,-360deg);transform:rotate3d(1,1,0,-360deg)}}
+
+
 /* // ---------------------------------------------- */
 
 $navbar-toggler-focus-width: none;
 $btn-focus-box-shadow: none;
+$success:       #00ce45;
+$primary:      #d3c6be;
 
 
 .navbar {
   position: fixed;
 }
-
+  /*  -------------------Fonts------------------------ */
 .bbs {
   font-family: "bbs";
 }
+.pp {
+  font-family: "Poppins";
+}
+// optional
+
+/* .indo img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+} */
 
 * {
   box-sizing: border-box !important;
@@ -243,7 +257,7 @@ button {
 }
 
 .layout_padding {
-  padding-top: 10px;
+  padding-top: 90px;
   padding-bottom: 0px;
 }
 
@@ -256,7 +270,7 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../assets/bali.png);
+  background-image: url(../assets/bali2.jpg);
   background-size: cover no-repeat;
   height: auto;
   background-size: 100%;
@@ -785,8 +799,8 @@ button {
   width: 100%;
   float: left;
   background-image: url(../assets/waves.svg);
-  height: auto;
-  padding-top: 150px;
+    height: 250px;
+  margin: 0 0 0 0;
   background-size: 100% 100%;
   padding-bottom: 30px;
   background-repeat: no-repeat;
@@ -818,7 +832,6 @@ button {
 .subscribe_bt {
   float: right;
 }
-
 .subscribe_bt a {
   width: 170px;
   float: left;
@@ -875,6 +888,13 @@ button {
 
 .call_text a:hover {
   color: #e27141;
+}
+.layout_footer {
+  position: relative;
+  transform: translateY(-45%);
+}
+.layout_footer div p {
+  scale: 1.2;
 }
 
 /* footer section end */
@@ -944,6 +964,64 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
 }
+
+/*------------ MAP ------------*/
+#sumatera {
+  transition:all 1.5 ease;
+}
+#jawa {
+  transition:all 1.5 ease;
+}
+#bali {
+  transition:all 1.5 ease;
+}
+#sulawesi {
+  transition:all 1.5 ease;
+}
+#kalimantan {
+  transition:all 1.5 ease;
+}
+#maluku {
+  transition:all 1.5 ease;
+}
+#nusa {
+  transition:all 1.5 ease;
+}
+#maluku {
+  transition:all 1.5 ease;
+}
+#papua {
+  transition:all 1.5 ease;
+}
+//
+#sumatera:hover {
+  scale: 1.03;
+}
+#jawa:hover {
+  scale: 1.03;
+}
+#bali:hover {
+  scale: 1.03;
+}
+#sulawesi:hover {
+  scale: 1.03;
+}
+#kalimantan:hover {
+  scale: 1.03;
+}
+#maluku:hover {
+  scale: 1.03;
+}
+#nusa:hover {
+  scale: 1.01;
+}
+#maluku:hover {
+  scale: 1.01;
+}
+#papua:hover {
+  scale: 1.01;
+}
+
 
 // *** Required ***//
 
