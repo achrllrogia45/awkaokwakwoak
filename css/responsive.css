@@ -133,7 +133,9 @@
         background-size: cover;
     }
     .banner_text {
-        width: 100%;
+        width: 50%;
+        font-size: 20px;
+        
     }
     .about_taital_main {
         padding-left: 25px;
@@ -198,12 +200,16 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        position: fixed;
+    }
     .header_section {
         padding: 0px;
         background-size: cover;
     }
     .banner_text {
-        width: 100%;
+        width: 50%;
+        font-size: 15px;
     }
     .about_taital_main {
         padding-left: 25px;
@@ -288,7 +294,7 @@
         display: none;
     }
     .indicator ol {
-        bottom: -45%;
+        bottom: 10%;
     }
 
 .carousel-indicators li {
@@ -321,13 +327,16 @@
         display: initial;
     }
     .banner_taital {
-        font-size: 50px;
+        font-size: 30px;
     }
     .bg-light {
         background-color: transparent !important;
     }
     .header_main {
         padding: 0px;
+    }
+    .navbar {
+        position: fixed;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
@@ -354,10 +363,11 @@
         background: red;
     }
     .banner_text {
-        width: 100%;
+        width: 50%;
+        font-size: 22px;
     }
     .banner_section {
-        padding: 50px 0px;
+        padding: 0px 0px;
     }
     .preview_section {
         padding: 50px 0px;
@@ -483,6 +493,27 @@
 }
 
 @media (max-width: 575px) {
+.navbar {
+    height: 30px;
+    position: fixed;
+}
+.read_bt a {
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  color: #141414;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 30px;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.read_bt a:hover {
+  background-color: #2b2278;
+  color: #ffffff;
+}
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, .5);
         border-color: transparent;
@@ -500,7 +531,7 @@
         display: none;
     }
 .indicator ol {
-  bottom: -20%;
+  bottom: -24%;
 }
 
 .carousel-indicators li {
@@ -534,8 +565,9 @@
         display: initial;
     }
     .banner_taital {
-        font-size: 50px;
-    }
+        font-size: 30px;
+        margin-bottom: 0;
+    } 
     .bg-light {
         background-color: transparent !important;
     }
@@ -567,10 +599,12 @@
         background: red;
     }
     .banner_text {
-        width: 100%;
+        width: 50%;
+        font-size: 12px;
+        line-height: 16px;
     }
     .banner_section {
-        padding: 50px 0px;
+        padding: 30px 0px;
     }
     .preview_section {
         padding: 50px 0px;

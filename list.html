@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      #mode {
+        float: right;
+      }
+      .change {
+        cursor: pointer;
+        border: 1px solid #555;
+        border-radius: 40%;
+        width: 50px;
+        text-align: center;
+        padding: 5px;
+        margin: 0 10px 0 0;
+      }
+      .dark {
+        background-color: #222;
+        color: #e6e6e6;
+      }
+    </style>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>List</title>
+    <meta name="keywords" content="Indonesia" />
+    <meta name="description" content="indahnya indonesia" />
+    <meta name="author" content="Hilman Nur Firdaus" />
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar-->
+      <div class="accordion border-end bg-white" id="sidebar-wrapper">
+        <div class="sidebar-heading bg-light">Daftar Isi:</div>
+
+        <div class="accordion-item list-group list-group-flush">
+          <!-- heading for acord -->
+          <div class="accordion-header" id="heading1">
+            <!-- parent Dashboard -->
+            <a
+              class="list-group-item collapsed list-group-item-light p-3"
+              href="#menu1"
+              aria-expanded="false"
+              data-bs-toggle="collapse"
+              >Dashboard</a
+            >
+            <!-- sub 1   -->
+            <div id="menu1" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <a
+                  href="#sub1-1"
+                  class="list-group-item"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                >
+                  sub 1 >
+                </a>
+                <div class="collapse" id="sub1-1">
+                  <div class="accordion-body">
+                    <a class="list-group-item" href="#" data-parent="sub2-1-1"
+                      >sub 1-1</a
+                    >
+                  </div>
+                </div>
+                <a
+                  href="#sub1-2"
+                  class="list-group-item"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                >
+                  sub 1 ></a
+                >
+
+                <div class="collapse" id="sub1-2">
+                  <div class="accordion-body">
+                    <a href="#" class="list-group-item" data-parent="sub1-2">
+                      sub 1.2
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-header" id="heading2">
+            <a
+              class="list-group-item collapsed list-group-item-light p-3"
+              href="#sub2"
+              data-bs-toggle="collapse"
+              aria-expanded="true"
+              >Shortcuts</a
+            >
+            <div id="sub2" class="collapse">
+              <div class="accordion-body">
+                <a href="#" class="list-group-item" data-parent="sub2">
+                  sub 2
+                </a>
+                <a
+                  href="#sub2-1"
+                  class="list-group-item"
+                  data-parent="sub2"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                >
+                  sub 2 >
+                </a>
+                <div class="collapse" id="sub2-1">
+                  <div class="accordion-body">
+                    <a
+                      href="#sub2-1-1"
+                      class="list-group-item"
+                      data-parent="#21"
+                      data-bs-toggle="collapse"
+                      aria-expanded="false"
+                    >
+                      sub 2.1 >
+                    </a>
+                    <div class="collapse" id="sub2-1-1">
+                      <div class="accordion-body">
+                        <a
+                          class="list-group-item"
+                          href="#"
+                          data-parent="sub2-1-1"
+                          >sub2-1-1</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-header">
+            <a
+              href="#sub3"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              class="list-group-item list-group-item-action list-group-item-light p-3"
+              href="#2"
+              >Overview</a
+            >
+            <div id="sub3" class="collapse">
+              <div class="accordion-body">
+                <a href="#" class="list-group-item"> sub 3</a>
+                <a href="#" class="list-group-item"> sub 3</a>
+              </div>
+            </div>
+          </div>
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#3"
+            >Events</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Profile</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#myDIV"
+            >Status</a
+          >
+        </div>
+      </div>
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+        <!-- Top navigation-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <div class="container-fluid">
+            <button class="btn" id="sidebarToggle">
+              <!-- prettier-ignore -->
+              <div class="ani1"> <svg version="1.1" id="tiangle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="55px" width="55px" viewBox="0 0 40 40" style="enable-background: new 0 0 40 40" xml:space="preserve" > <g id="magentaGroup"> <path id="magenta" style=" opacity: 0.75; fill-rule: evenodd; clip-rule: evenodd; fill: #a800b5; enable-background: new; " d="M21.3,21.3l15.9,9.2c0.4,0.2,0.9-0.1,0.9-0.5V11.6c0-0.4-0.5-0.7-0.9-0.5l-15.9,9.2C20.9,20.5,20.9,21.1,21.3,21.3L21.3,21.3z"/> </g> <g id="cyanGroup"> <path id="cyan_2" style=" opacity: 0.75; fill-rule: evenodd; clip-rule: evenodd; fill: #007f7f; enable-background: new; " d="M14.6,21.3l15.9,9.2c0.4,0.2,0.9-0.1,0.9-0.5V11.6c0-0.4-0.5-0.7-0.9-0.5l-15.9,9.2C14.2,20.5,14.2,21.1,14.6,21.3L14.6,21.3z"/> <path id="cyan_1" style=" opacity: 0.75; fill-rule: evenodd; clip-rule: evenodd; fill: #007f7f; enable-background: new; " d="M21.3,21.3l15.9,9.2c0.4,0.2,0.9-0.1,0.9-0.5V11.6c0-0.4-0.5-0.7-0.9-0.5l-15.9,9.2C20.9,20.5,20.9,21.1,21.3,21.3L21.3,21.3z"/> </g> </svg> </div>
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div id="mode">
+            Dark mode:
+            <div>
+              <button onclick="myFunction()" class="change">---</button>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Page content -->
+        <div class="container-fluid">
+          <h1 class="mt-4">Simple Sidebar</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>
