@@ -849,7 +849,7 @@ button {
   width: 100%;
   float: left;
   background-image: url(../assets/waves.svg);
-  height: 250px;
+  height: 370px;
   margin: 0 0 0 0;
   background-size: 100% 100%;
   padding-bottom: 30px;
@@ -943,7 +943,7 @@ button {
 
 .layout_footer {
   position: relative;
-  transform: translateY(-45%);
+  transform: translateY(145%);
 }
 
 .layout_footer div p {

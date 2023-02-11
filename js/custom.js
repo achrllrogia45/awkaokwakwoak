@@ -2,7 +2,7 @@
     File Name: custom.js
 ---------------------------------------------------------------------*/
 
-// $(function () 
+$(function () {
 	
 	"use strict";
 	
@@ -366,3 +366,6 @@
      $('#blogCarousel').carousel({
         interval: 5000
      });
+
+
+});
