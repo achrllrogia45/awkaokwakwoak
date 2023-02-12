@@ -210,6 +210,9 @@
     .navbar {
         position: fixed;
     }
+    #list-example {
+    display: hidden;
+}
     .header_section {
         padding: 0px;
         background-size: cover;
@@ -292,6 +295,9 @@
         color: rgba(0, 0, 0, .5);
         border-color: transparent;
     }
+    #list-example {
+    display: hidden;
+}
     #main_slider a.carousel-control-prev {
         position: absolute;
         left: 175px;
@@ -512,6 +518,10 @@
 }
 body {
     overflow-x: hidden;
+}
+div#list-example {
+    display: hidden;
+    scale: 0.5;
 }
 .read_bt a {
   width: 100%;
