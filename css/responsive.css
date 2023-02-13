@@ -207,9 +207,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .navbar {
-        position: fixed;
-    }
     #list-example {
     display: hidden;
 }
@@ -354,7 +351,6 @@
     }
     .navbar {
         height: 30px;
-        position: fixed;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
@@ -514,7 +510,6 @@
 @media (max-width: 575px) {
 .navbar {
     height: 30px;
-    position: fixed;
 }
 body {
     overflow-x: hidden;
